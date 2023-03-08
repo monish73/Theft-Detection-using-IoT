@@ -2,11 +2,11 @@
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
 
-const char* ssid = "Monish's 1+"; 
-const char* password = "aqwerty73";
+const char* ssid = "";//Enter your wifi's name 
+const char* password = "";//Enter your wifi's password
 
 const char *host = "maker.ifttt.com";
-const char *privateKey = "cGKFeUSoPWjpWdzuVN2FMv";
+const char *privateKey = "";//Enter the key in the ifttt documentation
 
 ESP8266WebServer server(80); 
 void send_event(const char *event);
